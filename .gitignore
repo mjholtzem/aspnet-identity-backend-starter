@@ -400,3 +400,4 @@ FodyWeavers.xsd
 # JetBrains Rider
 *.sln.iml
 aspnet-identity-backend-starter/.env
+aspnet-identity-backend-starter/app.db
