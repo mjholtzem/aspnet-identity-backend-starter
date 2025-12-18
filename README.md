@@ -16,6 +16,15 @@ Features:
 
 ---
 
+## Database
+
+This project uses a local sqlite database. To initalize the database locally open up a command prompt in the project root and execute 
+`dotnet ef database update`
+
+You may need to install the CLI tools with
+
+`dotnet tool install --global dotnet-ef`
+
 ## Environment Variables
 
 Sensitive configuration values (such as the SendGrid API key) are provided via **environment variables**.
