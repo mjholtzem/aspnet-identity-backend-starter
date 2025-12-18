@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.1.11304.174 d18.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aspnet-identity-backend-starter", "aspnet-identity-backend-starter.csproj", "{71AA37EF-AF0B-1E1C-17C6-88C2F891B618}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71AA37EF-AF0B-1E1C-17C6-88C2F891B618}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71AA37EF-AF0B-1E1C-17C6-88C2F891B618}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71AA37EF-AF0B-1E1C-17C6-88C2F891B618}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71AA37EF-AF0B-1E1C-17C6-88C2F891B618}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1C5C4C2C-60C6-43EC-8166-EB9009481351}
+	EndGlobalSection
+EndGlobal
