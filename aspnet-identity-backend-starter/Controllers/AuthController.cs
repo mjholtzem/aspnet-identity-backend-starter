@@ -82,7 +82,7 @@ public class AuthController : ControllerBase
 		var passwordIsValid = await _userManager.CheckPasswordAsync(identityUser, request.Password);
 		if(!passwordIsValid) return Unauthorized("Invalid credentials");
 
-		var testRoles = new List<string> { "Admin", "User" };
+		var roles = new List<string> { "User" };
 		var token = _tokenService.GenerateToken(identityUser.Id, identityUser.UserName!, identityUser.Email!, new List<string>(), identityUser.EmailConfirmed);
 
 		return Ok(new LoginResponse
